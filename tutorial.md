@@ -96,7 +96,7 @@ git commit -m "MY-MESSAGE, e.g. create notebook or added import routine"
 ```
 git push https://YOUR-TOKEN@github.com/YOUR-GITHUB-ID/public-notebooks.git
 ```
-6. If you have done it already, then create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)! Major criteria for accepting the playbook in the main repository is ability to execute it and produce expected results.
+6. If you have not done it already, create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)! To accept the notebook delivery it should be possible to execute the notebook and produce expected results, inline with the original proposal.
 
 ## Communication
 For contact via email use: cvl <at> npolar.no
