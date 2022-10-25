@@ -10,7 +10,7 @@ CVL stands for Cryosphere Virtual Laboratory. It offers users access to the foll
 ## Workflow overview
 The workflow is git based and uses GitHub as sharing platform.
 
-![Components](res/diagram1.drawio.svg)
+<img src="res/diagram1.drawio.png" width="500">
 
 ## How to get and set up required accounts 
 Accounts for GitHub, PTEP and CVL are required to follow the workflow.
@@ -20,8 +20,6 @@ Accounts for GitHub, PTEP and CVL are required to follow the workflow.
 2. Navigate to https://github.com/CryosphereVirtualLab/public-notebooks
 3. Fork the repository, this will create a linked repository at the following path (where YOUR-NAME is replaced by your username): https://github.com/YOUR-NAME/public-notebooks. The moment you are ready to share the notebook, even in the draft state, you can submit a pull request to the original repository. See documentation for [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
-
-
 ### PTEP
 1. Register at: https://portal.polartep.io/
 2. Log in to: https://polartep.io/jupyter/hub/home
@@ -29,7 +27,7 @@ Accounts for GitHub, PTEP and CVL are required to follow the workflow.
 4. Run the following commands:
 - Navigate to the home directory
 ```
-cd
+cd ~
 ```
 
 - Clone the repository from GitHub you forked earlier (replace YOUR-NAME with correct link):
@@ -67,22 +65,39 @@ Please egister at: https://cvl.eo.esa.int/user/login. Once registered, your acco
 To get started with Jupyter Notebook check out the `cvl_get-started.ipynb` in the `public-notebooks` directory you cloned earlier from GitHub.
 
 
-## Submitting to public notebooks
+## Submitting to "public-notebooks" repository
+### Git and github settings
+Once you have enough changes to share with others (and we encourage you to do so!), you can submit a pull request to the original repository.
+There are few steps required for anyone sharing their code via Git public repositories.
 
-[TODO]
-Github
-Settings
-Developer settings
-Personal access tokens > Tokens (classic)
-Select 
+Before you begin you will need to create a personal access token, since Github does not allow to use your username and password for authenticating access to repository. Please visit `https://github.com/settings/tokens` and create a token with access to repo. You can use it later instead of your username and password.
 
-    git config --global user.email "you@example.com"
-    git config --global user.name "Your Name"
-    
-git add FIRSTNAME_LASTNAME.ipynb 
+You will need to tell git who you are. For that please execute in the command line and provide your name and email address. They will appear in git/github as personal identifiers.
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+### Creating your own notebook
+1. give your notebook a distinct and descriptive name, e.g. `arctic-amplification.ipynb`. If you need to create several files beside the notebook, create a folder, e.g. `arctic-amplification` and place your notebook and other files there.
+2. Create a branch
+```
+git checkout -b 'arctic-amplification'
+```
+3. Stage (add) your changes to the git repository:
+```
+git add `arctic-amplification/*`
+```
+4. Commit your changes:
+```
 git commit -m "MY-MESSAGE, e.g. create notebook or added import routine"
-git push https://YOUR-TOKEN@github.com/ykern/public-notebooks.git
-    
+```
+5. Push your changes to the server:
+```
+git push https://YOUR-TOKEN@github.com/YOUR-GITHUB-ID/public-notebooks.git
+```
+6. If you have done it already, then create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)! Major criteria for accepting the playbook in the main repository is ability to execute it and produce expected results.
+
 ## Communication
 For contact via email use: cvl <at> npolar.no
 
