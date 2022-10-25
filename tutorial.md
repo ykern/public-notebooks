@@ -15,17 +15,17 @@ The workflow is git based and uses GitHub as sharing platform.
 
 [TODO diagram]
 
-### How to get and set up required accounts 
+## How to get and set up required accounts 
 Accounts for GitHub, PTEP and CVL are required to follow the workflow.
 
-#### GitHub
+### GitHub
 1. Log in to https://github.com/ (or register as new user)
 2. Navigate to https://github.com/CryosphereVirtualLab/public-notebooks
 3. Fork the repository, this will create a linked private repository at the following path (where YOUR-NAME is replaced by your username): https://github.com/YOUR-NAME/public-notebooks
 
 
 
-#### PTEP
+### PTEP
 1. Register at: https://portal.polartep.io/
 2. Log in to: https://polartep.io/jupyter/hub/home
 3. In the `Launcher` tab under the `Other` category launch the Terminal
@@ -47,11 +47,11 @@ Accounts for GitHub, PTEP and CVL are required to follow the workflow.
             source provision.sh
     
 
-#### CVL
+### CVL
 1. Register at: https://cvl.eo.esa.int/user/login
 
 
-### How to find source data
+## How to find source data
 1. Got to the CVL website: https://cvl.eo.esa.int/
 2. Navigate to `Data`
 3. Use the catalogue to browse through metadata
@@ -60,7 +60,7 @@ Accounts for GitHub, PTEP and CVL are required to follow the workflow.
 
 
 
-### How to start a Jupyter Notebook
+## How to start a Jupyter Notebook
 1. Login to https://polartep.io/jupyter/hub/home
 2. In the left sidepanel open the file browser (Ctrl+Shift+F)
 3. Navigate to the desired directory
