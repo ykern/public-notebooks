@@ -47,7 +47,7 @@ source provision.sh
 
 ### CVL
 To access data on CVL data portal an account is required.
-Please egister at: https://cvl.eo.esa.int/user/login. Once registered, your account will need to be approved by the administrator.
+Please register at: https://cvl.eo.esa.int/user/login. Once registered, your account will need to be approved by the administrator.
 
 
 ## How to find source data
