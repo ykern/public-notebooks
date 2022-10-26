@@ -99,7 +99,7 @@ git push https://YOUR-TOKEN@github.com/YOUR-GITHUB-ID/public-notebooks.git
 6. If you have not done it already, create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)! To accept the notebook delivery it should be possible to execute the notebook and produce expected results, inline with the original proposal.
 
 ## Communication
-For contact via email use: cvl <at> npolar.no
+For contact via email use: cvl `at` npolar.no
 
 For technical problems, packages requests, etc. it is easiest to keep track of those by using the issue functionality of GitHub.
 1. Go to https://github.com/CryosphereVirtualLab/public-notebooks/issues
