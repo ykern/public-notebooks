@@ -28,8 +28,9 @@ Example for an useful alias to save the `git push` command with your GitHub toke
 ```
 alias gitp="git push https://YOUR-TOKEN@github.com/YOUR-GITHUB-ID/public-notebooks.git"
 ```
+Now typing the command `gitp` in the terminal will trigger the whole `git push` command.
 
-In order to activate changes in the current Terminal run
+In order to activate changes to the `.bashrc` in the current Terminal run
 ```
 source $HOME/.bashrc
 ```
