@@ -43,7 +43,7 @@ cd public-notebooks
 - The following will update the work environment with missing python packages (confirm with `y` once asked):
 ```
 source provision.sh
-```    
+```
 
 ### CVL
 To access data on CVL data portal an account is required.
