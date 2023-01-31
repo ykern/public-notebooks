@@ -1,5 +1,5 @@
 # Tutorial
-This is a tutorial to get started with the Cryosphere Virtual Laboratory (CVL).
+This is a tutorial to get started with the Cryosphere Virtual Laboratory (CVL)
 
 ## What is CVL
 CVL stands for Cryosphere Virtual Laboratory. It offers users access to the following tools and resources:
