@@ -17,5 +17,5 @@ Following checklist is used to evaluate the submissions to the CVL early adopter
   - [ ] Runs successfully
   - [ ] Reproducible
 - [ ] Sufficient inline (markdown) documentation
-- [ ] According to project description
-- [ ] Utilisation of CVL data catalogue
+- [ ] In accordance with project description
+- [ ] Utilisation of CVL data catalogue (if applicable, alternative portals such as Zenodo could be utilised as well)
