@@ -1,4 +1,5 @@
-_Note: The checklist will be edited by the CVL team. If you want to add any description use the place holder in the end._
+_Note: The checklist will be edited by the CVL team. If you want to add any description use the place holder in the end.
+To update the pull request just commit to the related branch. There is no need to delete the pull request and reopen a new one._
 # CVL submission criteria
 
 ## GitHub
