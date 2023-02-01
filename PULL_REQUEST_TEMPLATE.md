@@ -22,5 +22,5 @@ To update the pull request just commit to the related branch. There is no need t
 - [ ] Utilisation of CVL data catalogue (if applicable, alternative portals such as Zenodo could be utilised as well)
 
 ---
-## Description of pull request
+# Description of pull request
 _< your description here (optional) >_
