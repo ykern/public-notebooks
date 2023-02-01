@@ -1,8 +1,8 @@
+_Note: The checklist will be edited by the CVL team. If you want to add any description use the place holder in the end._
 # CVL submission criteria
-Following checklist is used to evaluate the submissions to the CVL early adopters project.
 
 ## GitHub
-- [ ] Pull request sent
+- [x] Pull request sent
 - [ ] Merged
 
 ## Structure
@@ -19,3 +19,6 @@ Following checklist is used to evaluate the submissions to the CVL early adopter
 - [ ] Sufficient inline (markdown) documentation
 - [ ] In accordance with project description
 - [ ] Utilisation of CVL data catalogue (if applicable, alternative portals such as Zenodo could be utilised as well)
+
+---
+_< your description here (optional) >_
