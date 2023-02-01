@@ -21,4 +21,5 @@ _Note: The checklist will be edited by the CVL team. If you want to add any desc
 - [ ] Utilisation of CVL data catalogue (if applicable, alternative portals such as Zenodo could be utilised as well)
 
 ---
+## Description of pull request
 _< your description here (optional) >_
