@@ -1,9 +1,8 @@
-# CVL submission criteria
-Following checklist is used to evaluate the submissions to the CVL early adopters project.
+__IMPORTANT:__ _Check that none of your commits has hard-coded credentials (user, password)! Otherwise, don't open a pull request and get in touch with us first._
 
-## GitHub
-- [ ] Pull request sent
-- [ ] Merged
+_INFO: The checklist below will be edited by the CVL team. If you want to add any description use the place holder in the end.
+To update the pull request just commit to the related branch. There is no need to delete the pull request and reopen a new one._
+# CVL submission criteria
 
 ## Structure
 - [ ] Introduction
@@ -17,5 +16,9 @@ Following checklist is used to evaluate the submissions to the CVL early adopter
   - [ ] Runs successfully
   - [ ] Reproducible
 - [ ] Sufficient inline (markdown) documentation
-- [ ] According to project description
-- [ ] Utilisation of CVL data catalogue
+- [ ] In accordance with project description
+- [ ] Utilisation of CVL data catalogue (if applicable, alternative portals such as Zenodo could be utilised as well)
+
+---
+# Description of pull request
+_< your description here (optional) >_
