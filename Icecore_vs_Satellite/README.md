@@ -1,4 +1,4 @@
-# Project: <Temprature effect on Ice core>
+# Temprature effect on Ice core: <>
 <On polar regions such as Greenland, every time that it snows, the snow accumulates on top of previous snow. After several years the snow gets compacted and preserves the environmental conditions of the past. One of the most important features that affect snow accumulation is temperature. In this study, I aim to see the effect of temperature on snow layers. 
 
 To do so, I need data from snow columns (ice core data) and temperature data from satellites. Schaller et al. have been to northern parts of Greenland and they have collected samples of ice cores (4 meters of snow) and taken X-ray images of it. The X-ray image can tell us about the density of snow layers, and we know that these 4 meters of snow are almost equal to 4 years. Thus, I am trying to see the effect of temperature on the density of the ice core during these years to check the correlation and interpretation of the signal.>
