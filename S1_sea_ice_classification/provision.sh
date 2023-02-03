@@ -14,3 +14,4 @@ conda install -c conda-forge \
   python-dotenv \
   sentinelsat \
   scikit-learn \
+  dateparser \
