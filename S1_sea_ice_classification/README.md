@@ -1,2 +1,2 @@
-# Project: <Write your title here>
+# Project: Sea Ice Types Classification from Sentinel-1 SAR imagery
 <Add your readme here>
