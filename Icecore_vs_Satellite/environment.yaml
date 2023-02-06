@@ -1,1 +1,6 @@
 
+name: env
+channels:
+  - conda-forge
+dependencies:
+  - earthaccess=0.4.*
