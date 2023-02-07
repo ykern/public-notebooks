@@ -11,9 +11,9 @@ Finally, we use the calibrated SAR image (HH and HV channel) and the label mask 
 **Summary**
 
 This notebook contains 3 scripts that build upon each other:
-1) _sentinel_search_: search for Sentinel-1 and overlapping Sentinel-2 inside a user-defined ROI and save search results to text files.
+1) _sentinel_search_: search for Sentinel-1 and overlapping Sentinel-2 over a user-defined area (ROI) and save search results to text files.
 2) _load_and_calibrate_S1_scene_: load one of the Sentinel-1 images returned by the search of the first script and calibrate both image bands (HH and HV channel). Visualise the output.
-3) _ice_water_classification_: classify a subset of the Sentinel-1 image using Label Propagation into the classes 'ice' and 'water'.
+3) _ice_water_classification_: classify a subset of the Sentinel-1 image into the classes 'ice' and 'water' using Label Propagation 
 
 ### Requirements
 Source the _provision.sh_ file to install required packages in the JupyterLab environment.
