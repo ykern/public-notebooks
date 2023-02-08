@@ -1,5 +1,5 @@
 # Tutorial
-This is a tutorial to get started with the Cryosphere Virtual Laboratory (CVL).
+This is a tutorial to get started with the Cryosphere Virtual Laboratory (CVL)
 
 ## What is CVL
 CVL stands for Cryosphere Virtual Laboratory. It offers users access to the following tools and resources:
@@ -43,7 +43,7 @@ cd public-notebooks
 - The following will update the work environment with missing python packages (confirm with `y` once asked):
 ```
 source provision.sh
-```    
+```
 
 ### CVL
 To access data on CVL data portal an account is required.
