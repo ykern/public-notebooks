@@ -1,6 +1,23 @@
 # Customize JupyterHub environment
 Additional information about how to customise the JupyterHub work environment.
 
+## Jupyter Notebook
+### Conda environment
+Make a conda environment available in Jupyter Notebook.
+
+Create a conda environment
+```
+conda create --name my-env python ipykernel
+```
+Activate environment
+```
+conda activate my-env
+```
+Register kernel
+```
+python -m ipykernel install --user --name=my-env --display-name="Python (my-env)"
+```
+
 ## Terminal
 
 ### Shell customisation
