@@ -9,9 +9,4 @@ conda install -c conda-forge \
   geopandas \
   xarray \
   dask \
-  cartopy \
-  ipython \
-  loguru \
-  sentinelsat \
-  dateparser \
-  python-dotenv
+  cartopy
