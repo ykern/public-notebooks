@@ -6,6 +6,7 @@ This notebook shows how to generate a time series of Sentinel-1 imagery for a gi
 
 For every S1 scene, another search is performed to find overlapping Sentinel-2 (S2) data. Search results are written to text files for later download and processing. One example for common visualiztion of overlapping S1 and S2 data is shown.
 
+Detailed information on all processing steps and parameters to be adjusted is given in the notebook as markdown and comment.
 
 ### Requirements
 ---
