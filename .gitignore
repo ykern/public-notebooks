@@ -1,9 +1,2 @@
 .ipynb_checkpoints
 __pycache__
-data/
-cvl-3d-viz/
-__pycache_
-.env
-*.png
-figures
-search_results
