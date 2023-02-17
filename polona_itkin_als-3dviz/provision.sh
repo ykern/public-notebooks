@@ -5,3 +5,5 @@
 
 conda install -c conda-forge \
   pyresample
+  
+pip install publish
